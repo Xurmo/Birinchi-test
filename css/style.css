@@ -1,0 +1,71 @@
+﻿.menu {
+	font-family: verdana;
+	text-align: right;
+}
+body{
+	background-image: url(../image/test2.jpg);
+	background-size: cover;
+
+}
+.menu{
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	padding-right: 40px;
+	text-align-last: right;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding: 55px;
+	
+}
+.menu a:hover{
+	color: orange;
+}
+hr{
+	width: 640px;
+	text-align: right;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 30px;
+}
+.good{
+	text-align: right;
+	color: orange;
+	margin-right: 130px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: Segoe Script Regular;
+	line-height: 1.0;
+	font-size: 90px;
+	margin-top: 110px;
+}
+h1{
+	font-family: Mistral Regular;
+	font-size: 120px;
+}
+.text{
+	color: white;
+	text-align-last: left;
+	margin-left: 680px;
+	font-family: verdana;
+}
+.boyoq{
+	width: 300px;
+	margin-left: 700px;
+	margin-top: 60px;
+}
+.sushilogo{
+	color: white;
+	font-size: 30px;
+	border: solid 1px;
+	padding: 6px;
+	margin: 25px;
+	float: left;
+
+
+	display: inline-block;
+	line-height: 1.0;
+}
