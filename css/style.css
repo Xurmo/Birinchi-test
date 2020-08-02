@@ -82,3 +82,19 @@ h1{
 .orboy{
 	position: relative;
 }
+	
+ul{
+	margin-left: 700px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+li{
+	list-style-type: none;
+	float: left;
+	padding: 10px;
+	margin: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+
+}
