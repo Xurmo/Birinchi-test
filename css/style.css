@@ -51,6 +51,7 @@ h1{
 	text-align-last: left;
 	margin-left: 680px;
 	font-family: verdana;
+	font-size: 18px;
 }
 .boyoq{
 	width: 300px;
@@ -82,19 +83,45 @@ h1{
 .orboy{
 	position: relative;
 }
-	
-ul{
+
+.social{
+	height: 30vh;
+	display: flex;
+	align-items: center;
 	margin-left: 700px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	display: inline-block;
 }
-li{
-	list-style-type: none;
-	float: left;
-	padding: 10px;
-	margin: 7px;
-	border-radius: 50%;
+
+
+ .social a{
+	width: 60px;
+	height: 60px;
 	background-color: #fff;
+	margin:10px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 70px;
+	box-shadow: 1px 2px 1px 1px;
 
 }
+.social i{
+	transition: all 0.3s linear;
+}
+.social a:hover i{
+	transform: scale(1.4);
+
+}
+
+.fa-facebook-f{
+	color: #002db3;
+}
+.fa-instagram{
+	color: #ff8dad;
+}
+.fa-google-plus-g{
+	color: #fb7756;
+
+}
+.fa-telegram-plane{
+	color: #1a82ff;
+}
+
